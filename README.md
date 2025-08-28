@@ -10,16 +10,6 @@ A boilerplate for building and sharing Vue 3 components using the Composition AP
 - 🛠 **Vite** – Fast development server and optimized builds
 - 📦 **Ready for npm publishing** – Easily package and share your components
 
-## 📂 Project Structure
-
-```bash
-src/
-├─ components/ # Vue 3 components
-├─ stories/ # Storybook stories
-├─ styles/ # Tailwind setup
-└─ index.ts # Entry point
-```
-
 ## 🛠 Installation
 
 Clone the repository:
