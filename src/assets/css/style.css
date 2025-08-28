@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+@import 'tailwindcss';
+
+@theme {
+    --default-font-family: 'DM Sans', var(--font-sans);
+
+    --font-dm-sans: 'DM Sans', var(--font-sans);
+
+    --color-gray-50: #FFFFFF;
+    --color-gray-100: #FAFAFA;
+    --color-gray-200: #F5F5F5;
+    --color-gray-300: #E5E5E5;
+    --color-gray-400: #D4D4D4;
+    --color-gray-500: #A3A3A3;
+    --color-gray-600: #737373;
+    --color-gray-700: #525252;
+    --color-gray-800: #404040;
+    --color-gray-900: #000000;
+
+    --color-yellow-50: #FFFBE5;
+    --color-yellow-100: #FFF5B7;
+    --color-yellow-200: #FFEF8A;
+    --color-yellow-300: #FFE95C;
+    --color-yellow-400: #FFE32E;
+    --color-yellow-500: #FFDD00;
+    --color-yellow-600: #D6BA00;
+    --color-yellow-700: #AD9600;
+    --color-yellow-800: #857300;
+    --color-yellow-900: #5C5000;
+}
+
+body {
+    @apply text-gray-900;
+}
